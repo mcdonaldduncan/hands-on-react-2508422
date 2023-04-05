@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import Welcome from './components/Welcome';
 import Support from './components/Support';
 import ListCast from './components/ListCast';
 
+
+
 function App() {
+  const [count, setCount] = useState(0) 
+  
   const name = 'StarGazers'
   return (
     <div className="container">
