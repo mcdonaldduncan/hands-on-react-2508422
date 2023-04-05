@@ -6,8 +6,6 @@ import ListCast from './components/ListCast';
 
 
 function App() {
-  const [count, setCount] = useState(0) 
-  
   const name = 'StarGazers'
   return (
     <div className="container">
